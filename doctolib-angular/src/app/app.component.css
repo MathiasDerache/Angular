@@ -1,0 +1,13 @@
+body{
+  height: 100vh;
+  background-image: url(../../../images/main-image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.recherche{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
