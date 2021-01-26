@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <app-liste-voitures (selectVoiture)="onReceivedVoiture($event)"></app-liste-voitures>
+    </div>
+    <div class="col-6">
+      <app-detail-voiture></app-detail-voiture>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p [color] ="'red'" colorMe>Je suis un element colorfull</p>
+    </div>
+  </div>
+</div>
